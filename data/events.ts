@@ -20,5 +20,12 @@ export const events: Event[] = [
     date: '2023-11-15',
     location: '线上直播',
     description: '为在韩华人解答生活中的常见问题。'
+  },
+  {
+    id: '3',
+    title: '志愿者培训营',
+    date: '2023-12-05',
+    location: '釜山青年中心',
+    description: '培养社区志愿者，提升服务能力。'
   }
 ]

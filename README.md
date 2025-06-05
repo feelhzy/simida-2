@@ -1,12 +1,20 @@
-# Smida 社区项目
+# Smida 社区平台
 
-这是一个使用 Next.js 和 Tailwind CSS 构建的社区网站示例，
-包含活动发布、报名表单以及社区交流等基础功能。
+该项目是一个基于 Next.js 与 Tailwind CSS 的示例网站，展示了思密达社区的基本功能：
 
-## 本地运行
+- 协会活动展示与报名
+- 社区交流板块（问答、生活指南、志愿者与二手交易）
+- 简单的联系方式与常见问题页面
 
-```bash
-npm install
-npm run dev
-```
+## 本地启动
 
+1. 安装依赖
+   ```bash
+   npm install
+   ```
+2. 运行开发环境
+   ```bash
+   npm run dev
+   ```
+
+构建与启动生产环境可分别使用 `npm run build` 与 `npm start`。

@@ -1,13 +1,10 @@
-import NavBar from '../components/NavBar'
+import Layout from '../components/Layout'
 
 export default function AboutPage() {
   return (
-    <div>
-      <NavBar />
-      <main className="p-4 space-y-4">
-        <h1 className="text-2xl font-bold">关于思密达社区</h1>
-        <p>思密达社区旨在为在韩华人提供便利的活动信息和生活服务，同时促进中韩文化交流。</p>
-      </main>
-    </div>
+    <Layout>
+      <h1 className="text-2xl font-bold mb-4">关于思密达社区</h1>
+      <p>思密达社区致力于通过线上平台为在韩华人提供便利的活动信息、生活指南和交流空间，同时搭建中韩文化与民间交往的桥梁。</p>
+    </Layout>
   )
 }

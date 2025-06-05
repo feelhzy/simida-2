@@ -19,6 +19,11 @@ export default function NavBar() {
             <a className="hover:underline">关于我们</a>
           </Link>
         </li>
+        <li>
+          <Link href="/community">
+            <a className="hover:underline">社区</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   )
